@@ -231,7 +231,7 @@ After the analysis and consideration of several groups of variables, a group of 
 variables remained. These were further divided into metric and categorical features. In the next figure it
 is possible to visualize the computed correlation matrix, after outlier removal:
 
-![Correlation matrix of selected features](/corr_matrix.png)
+![Correlation matrix of selected features](https://github.com/Farkites/DM_Project/blob/master/res/corr_matrix.png?raw=true)
 
 Several observations could be made regarding the selected variables:
 * The features formed two groups of correlated variables, which did not interact strongly
@@ -256,7 +256,7 @@ promotions, and no specific impact in giving behavior was detected when distingu
 
 ## Clustering 
 ### RFM analysis
-![Count of RFM combined categories](https://github.com/Farkites/DM_Project/tree/master/res/rfm_count.png)
+![Count of RFM combined categories](https://github.com/Farkites/DM_Project/blob/master/res/rfm_count.png?raw=true)
 
 The edges of the squares were generally the most populated ones, which indicated a skew
 towards either the highest level of frequency or the highest level of monetary value. The lower
@@ -269,7 +269,7 @@ therefore there is potential in targeting these donors according to some specifi
 windows.
 
 ### Clustering by Giving History
-![Cluster Profiling on Giving History features](https://github.com/Farkites/DM_Project/tree/master/res/cluster_profiling_giving_history.png)
+![Cluster Profiling on Giving History features](https://github.com/Farkites/DM_Project/blob/master/res/cluster_profiling_giving_history.png?raw=true)
 
 Cluster 0 (*Frequent Low Dollar donors*): Represents approximately one third of the records. It has very regular (close to the median) values. 
 Even though their total number of gifts is higher than the median, their donations are smaller in comparison with other donors. 
@@ -296,7 +296,7 @@ donated more times, or more often than others. However, when they donate, it is 
 low responsiveness to the number of promotions; given their worth, more specific strategies could be implemented for the cluster.  
 
 ### Clustering by Census Data History
-![Cluster Profiling on Census Data features](https://github.com/Farkites/DM_Project/tree/master/res/cluster_profiling_census_data.png)
+![Cluster Profiling on Census Data features](https://github.com/Farkites/DM_Project/blob/master/res/cluster_profiling_census_data.png?raw=true)
 
 Cluster 0 (*Median neighborhoods*): Represent almost half of the records. These donors do not stand out for their behavior in any of the features. 
 The size of this cluster is not surprising given that in preprocessing census data, many missing values had to be filled with median values.
@@ -317,7 +317,7 @@ and which population has more years of education than the median, and a percenta
 
 # Marketing Aproaches
 
-![Frequency table of Giving History clusters and Census Data clusters.](https://github.com/Farkites/DM_Project/tree/master/res/Giving-Census_freq_table.png)
+![Frequency table of Giving History clusters and Census Data clusters.](https://github.com/Farkites/DM_Project/blob/master/res/Giving-Census_freq_table.png?raw=true)
 
 *Median Neighborhoods* is the most populated census cluster. It does not represent a concrete
 kind of neighborhood, in the sense it does not have any distinguishing features. Given this
