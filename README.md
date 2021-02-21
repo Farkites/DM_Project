@@ -317,7 +317,7 @@ and which population has more years of education than the median, and a percenta
 
 # Marketing Aproaches
 
-![Frequency table of Giving History clusters and Census Data clusters.](https://github.com/Farkites/DM_Project/blob/master/res/Giving-Census_freq_table.png?raw=true)
+![Frequency table of Giving History clusters and Census Data clusters.](https://github.com/Farkites/DM_Project/blob/master/res/Countplot%20Clusters.png?raw=true)
 
 *Median Neighborhoods* is the most populated census cluster. It does not represent a concrete
 kind of neighborhood, in the sense it does not have any distinguishing features. Given this
