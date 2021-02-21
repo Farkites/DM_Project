@@ -28,6 +28,14 @@ This project was develop by [Tiago Jose Isidoro Ramos](https://github.com/Exileu
   * [Evaluation](#evaluation)
   * [Deployment](#deployment)
 * [Results & Interpretation](#results)
+  * [Business Understanding](#business-understanding)
+  * [Data Understanding and Preparation](#data-understanding-preparation)
+  * [Engineered Features](#engineered-features)
+  * [Clustering](#clustering)
+   * [RFM](#rfm)
+   * [Clustering by Giving History](#giving-history)
+   * [Clustering by Census Data](#census-data)
+* [Marketing Aproaches](#marketing-approaches)
 * [Conclusion](#conclusion)
 
 
