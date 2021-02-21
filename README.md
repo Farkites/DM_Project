@@ -1,5 +1,6 @@
 # DM_Project
-Final project for the Data Mining subject in the [Master Degree Program in Data Science and Advanced Analytics](https://www.novaims.unl.pt/mdsaa) in [Nova IMS (Universidade Nova de Lisboa)](https://www.novaims.unl.pt/default).
+Final project for the Data Mining subject in the [Master Degree Program in Data Science and Advanced Analytics](https://www.novaims.unl.pt/mdsaa) in [Nova IMS (Universidade Nova de Lisboa)](https://www.novaims.unl.pt/default). Exact project guidelines can be found [here](https://github.com/Farkites/DM_Project/blob/master/Project_Guidelines_DM.pdf) 
+
 The objective of this project was to develop a Client Segmentation for the non-profit organization [Paralyzed Veterans of American](https://www.pva.org/) (PVA). For the purpose
 of this project a CRISP-DM process was followed. An extensive data preparation was needed, including data cleansing, feature selection, feature engineering, among other necessary steps. 
 
@@ -11,7 +12,7 @@ having clearer donor profiles.
 Interpretable clusters were obtained and some marketing approaches were suggested based
 on them.
 
-This project was develop by [Tiago Ramos](https://github.com/Exileus) and [myself](https://github.com/Farkites).
+This project was develop by [Tiago Jose Isidoro Ramos](https://github.com/Exileus) and [myself](https://github.com/Farkites).
 
 # Table of Contents
 * [Technologies](#technologies)
@@ -29,6 +30,8 @@ This project was develop by [Tiago Ramos](https://github.com/Exileus) and [mysel
 * [Results & Interpretation](#results)
 * [Conclusion](#conclusion)
 
+
+Further information may be found on the [report](https://github.com/Farkites/DM_Project/blob/master/DM_report_group_E.pdf).
 # Technologies
 
 * Python 3.8
@@ -218,7 +221,6 @@ As iteration between both stages was extensive, the most relevant and impactful 
 The following groups of variables were considered, explored, and analyzed: Datetime, RFAs,
 giving history, census, household, major donors, and mailings.
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ## Engineered Features
 Regarding the **Age** feature: about 25% of records (23883) were missing date of birth, and records were found of children donors. Also, 19 people under 6 years old donated. 
@@ -269,7 +271,7 @@ therefore there is potential in targeting these donors according to some specifi
 windows.
 
 ### Clustering by Giving History
-![Cluster Profiling on Giving History features](https://github.com/Farkites/DM_Project/blob/master/res/cluster_profiling_giving_history.png?raw=true)
+![Cluster Profiling on Giving History features](https://github.com/Farkites/DM_Project/blob/master/res/g_labels_vis.png?raw=true)
 
 Cluster 0 (*Frequent Low Dollar donors*): Represents approximately one third of the records. It has very regular (close to the median) values. 
 Even though their total number of gifts is higher than the median, their donations are smaller in comparison with other donors. 
@@ -296,7 +298,7 @@ donated more times, or more often than others. However, when they donate, it is 
 low responsiveness to the number of promotions; given their worth, more specific strategies could be implemented for the cluster.  
 
 ### Clustering by Census Data History
-![Cluster Profiling on Census Data features](https://github.com/Farkites/DM_Project/blob/master/res/cluster_profiling_census_data.png?raw=true)
+![Cluster Profiling on Census Data features](https://github.com/Farkites/DM_Project/blob/master/res/i_labels_vis.png?raw=true)
 
 Cluster 0 (*Median neighborhoods*): Represent almost half of the records. These donors do not stand out for their behavior in any of the features. 
 The size of this cluster is not surprising given that in preprocessing census data, many missing values had to be filled with median values.
